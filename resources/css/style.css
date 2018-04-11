@@ -1,0 +1,96 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+  background-color: black;
+}
+
+/* header */
+
+header{
+  position: fixed;
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  z-index: 1;
+  background-color: black;
+  align-items: center;
+}
+
+.logo img{
+  margin-left: 10px;
+  height: 50px;
+}
+
+nav{
+  flex-grow: 1;
+  text-align: right;
+}
+
+a{
+  color: seashell;
+}
+
+/* The rest */
+/* section 1 */
+.body{
+  position: relative;
+  top: 69px;
+  margin: auto;
+  width: 1200px;
+}
+
+.img1{
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.mission{
+  width: 100%;
+  background-color: black;
+}
+/* section2 */
+.mouth{
+  width: 1000px;
+  margin: auto;
+}
+.album{
+ display: flex;
+ flex-wrap: wrap;
+ align-content: center;
+ justify-content: center;
+}
+.pic img{
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+/* section3 */
+.img2{
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+  padding-top: 70px;
+}
+.locations{
+  display: flex;
+  justify-content: center;
+}
+.column{
+  margin: 15px 20px;
+  background-color: black;
+  width: 300px;
+}
+/* section4 */
+.contact{
+  height: 200px;
+}
+.copyright{
+  text-align: left;
+  margin-left: 20px;
+}
